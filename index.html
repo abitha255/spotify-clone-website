@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="playlist">
+            <h2>Playlist</h2>
+            <ul id="song-list">
+                <!-- Songs will be added here dynamically -->
+            </ul>
+        </section>
+        <section class="player">
+            <h2>Now Playing</h2>
+            <div id="now-playing">
+                <p>Select a song to play</p>
+            </div>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

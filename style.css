@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.playlist, .player {
+    width: 45%;
+    background-color: #282828;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.playlist h2, .player h2 {
+    margin-top: 0;
+}
+
+#song-list {
+    list-style: none;
+    padding: 0;
+}
+
+#song-list li {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#song-list li:hover {
+    color: #1DB954;
+}
+
+#now-playing {
+    margin-bottom: 1rem;
+}
+
+audio {
+    width: 100%;
+}
